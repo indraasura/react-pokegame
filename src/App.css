@@ -1,0 +1,54 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pokedex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.pokecard{
+  width: 15%;
+  height: 15%;
+  padding: 1em;
+  border-radius: 30px;
+  background: whitesmoke;
+  box-shadow: rgb(182, 182, 182) 10px 5px 20px;
+}
+
+.pokecard h2{
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.pokecard img{
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pokecard div{
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.total-exp{
+  background: rgb(196, 165, 221);
+  height: 20px;
+  padding: 1em;
+  border-radius: 50px;
+}
+
+.winner, .loser{
+  text-align: center;
+}
+
+.winner{
+  color: green;
+}
+
+.loser{
+  color: red;
+}
